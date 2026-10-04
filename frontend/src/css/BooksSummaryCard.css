@@ -1,0 +1,30 @@
+.books-summary-card{
+    background:#d7e8ff;
+    border-radius:18px;
+    padding:30px;
+    width: auto;
+    min-height:180px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+    margin-bottom:40px;
+}
+
+.summary-title{
+    color:#2f64b7;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.summary-count{
+    font-size:64px;
+    color:#1f4ea0;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.summary-subtitle{
+    color:#6d7280;
+    font-size:18px;
+}

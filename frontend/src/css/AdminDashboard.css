@@ -1,0 +1,23 @@
+.admin-page{
+    min-height:100vh;
+    background:#f5f7fb;
+    padding:30px;
+}
+
+.admin-container{
+    max-width:1400px;
+    margin:auto;
+}
+
+.admin-header h1{
+    margin:0;
+    font-size:40px;
+    font-weight:700;
+    color:#1e293b;
+}
+
+.admin-header p{
+    margin-top:8px;
+    color:#64748b;
+    font-size:16px;
+}

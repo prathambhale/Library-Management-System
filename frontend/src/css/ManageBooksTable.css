@@ -1,0 +1,123 @@
+.manage-books {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.manage-books-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.manage-books-header h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+}
+.manage-books-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.add-book-btn,
+.import-books-btn {
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.add-book-btn {
+    background: #2563eb;
+}
+
+.add-book-btn:hover {
+    background: #1d4ed8;
+}
+
+.import-books-btn {
+    background: #16a34a;
+}
+
+.import-books-btn:hover {
+    background: #15803d;
+}
+.manage-books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.manage-books-table th {
+    text-align: left;
+    padding: 16px;
+    background: #f8fafc;
+    color: #475569;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.manage-books-table td {
+    padding: 16px;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #334155;
+}
+
+.manage-books-table tr:hover {
+    background: #f8fafc;
+}
+.edit-btn,
+.delete-btn {
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 8px;
+}
+
+.edit-btn {
+    background: #3b82f6;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #2563eb;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+}
+
+.search-book-input {
+    width: 350px;
+    padding: 10px 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-book-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.2);
+}

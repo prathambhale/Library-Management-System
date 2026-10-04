@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #6b6375;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.45;
+    letter-spacing: 0.18px;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #08060d;
+    margin: 32px 0;
+    letter-spacing: -1.5px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #08060d;
+    margin: 0 0 8px;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0;
+}
+
+code {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #f4f3ec;
+    color: #08060d;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+    font-size: 15px;
+}
+
+.counter {
+    display: inline-block;
+    font-family: Consolas, monospace;
+    color: #08060d;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #413bff;
+    transition: 0.1s;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #e5e4e7;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #413bff;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #e5e4e7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+}

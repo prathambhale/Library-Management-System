@@ -1,0 +1,60 @@
+.genre-page {
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 18px;
+}
+
+.genre-page h1 {
+    margin: 25px 0;
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    background: #f8fafc;
+    padding: 18px 20px;
+    font-weight: 600;
+    color: #374151;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.books-container {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.table-footer {
+    padding: 18px 20px;
+    border-top: 1px solid #e5e7eb;
+    font-weight: 500;
+    color: #4b5563;
+    background: #fff;
+}
+
+.search-container{
+    margin:20px 0;
+}
+
+.search-input{
+    width:100%;
+    padding:14px 18px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:0.3s;
+}
+
+.search-input:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+}
